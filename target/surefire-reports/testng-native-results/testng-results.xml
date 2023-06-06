@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="43077" started-at="2022-09-05T09:55:11Z" finished-at="2022-09-05T09:55:54Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="43077" started-at="2022-09-05T09:55:11Z" finished-at="2022-09-05T09:55:54Z">
+      <class name="org.sampletesng.SampleTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="beforeClass" is-config="true" duration-ms="7484" started-at="2022-09-05T09:55:11Z" finished-at="2022-09-05T09:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="tc0" duration-ms="161" started-at="2022-09-05T09:55:18Z" data-provider="getData" finished-at="2022-09-05T09:55:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="beforeClass" is-config="true" duration-ms="8821" started-at="2022-09-05T09:55:18Z" finished-at="2022-09-05T09:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="tc0" duration-ms="188" started-at="2022-09-05T09:55:27Z" data-provider="getData" finished-at="2022-09-05T09:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[junit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="beforeClass" is-config="true" duration-ms="26159" started-at="2022-09-05T09:55:27Z" finished-at="2022-09-05T09:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.sampletesng.SampleTest@9629756]" name="tc0" duration-ms="247" started-at="2022-09-05T09:55:54Z" data-provider="getData" finished-at="2022-09-05T09:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testng]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priority]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+      </class> <!-- org.sampletesng.SampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
