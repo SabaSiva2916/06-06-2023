@@ -43,12 +43,17 @@ public class WriteDataToExcel {
 	workbook.write(fileOutputStream);
 
 	System.out.println("Changes done successfully!!!!");
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.facebook.com/");
+	WebElement txtuserName = driver.findElement(By.id("email"));
+	txtuserName.sendKeys("Welcome");
 	String str = "Java programm";
 	String output = "";
 	for (int i = str.length() - 1; i >= 0; i--) {
 	    output = output + str.charAt(i);
 	}
 	System.out.println(output);
+
     }
 
 }
